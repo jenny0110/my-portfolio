@@ -227,15 +227,33 @@ h1{
     color: black;
     text-align: center;
     font-family: 'NanumGothicCoding 볼드체';
+    padding-top: 3%;
 }
 #all-pro-box a p{
     position: absolute;
     bottom: 0;
-    color: gray;
+    color: rgb(77, 76, 76);
     width: 100%;
     font-size: 13px;
     line-height: normal;
     font-family: 'NanumGothicCoding 일반체';
+    padding: 1%;
+}
+
+#i1{
+    padding-left: 7%;
+    padding-top: 2%;
+    width: 300px;
+}
+#i2{
+    padding-left: 21%;
+    padding-top: 2%;
+    width: 200px;
+}
+#i3{
+    padding-left: 7%;
+    padding-top: 2%;
+    width: 300px;
 }
 /* 푸터 */
 footer{
