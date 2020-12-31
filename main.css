@@ -1,0 +1,269 @@
+/* 헤더 */
+#container1{
+    position: fixed;
+    left: 0px; top: 0px;
+    width: 100%; height: 50px;
+    background-color: #af2f2e;
+    z-index: 1;
+}
+#logo{
+   font-family: 'NanumGothicCoding 볼드체';
+   font-size: 35px;
+   position:absolute;
+   top:50%; left:10%;
+   transform: translate(0%, -50%);
+}
+#logo a{
+    text-decoration: none;
+    color: #f0e7da; 
+}
+#menu{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'NanumGothicCoding 일반체';
+    position:absolute;
+    top:50%; left:20%;
+    transform: translate(0%, -50%);
+}
+#menu a{
+    text-decoration: none;
+    color: #f0e7da;
+    margin: 0px 20px;
+}
+/* 메인 */
+main{
+    margin-top: 50px;
+}
+.first-me{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #f0e7da;
+    max-width: 100%;
+}
+#hi{
+    position: absolute;
+    top: 30%; left: 15%;
+    font-size: 30px;
+    font-family: 'NanumGothicCoding 볼드체';
+}
+h1{
+    position: absolute;
+    top: 55%; left: 15%;
+    font-family: 'NanumGothicCoding 일반체';
+}
+#dynamic{
+    position: relative;
+    display: inline-block;
+}
+/* 커서 */
+#dynamic::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3px; right: -3px;
+    width: 2px;
+    height: 80%;
+    background-color: gray;
+}
+#dynamic.active::after{
+    display: none;
+}
+/* 커서 끝 */
+.jpg img{
+    position: absolute;
+    top: 20%; left: 70%;
+    width: 100px;
+}
+
+/* 스킬 */
+.skills{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+}
+#skill{
+    position: absolute;
+    font-size: 30px;
+    left: 50%; 
+    transform: translateX(-50%);    
+    margin-top: 5%;
+    font-family: 'NanumGothicCoding 볼드체';
+}
+#ican{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);    
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'NanumGothicCoding 일반체';
+}   
+#all-skill{
+    position: relative;
+    top: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#skill-box1{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 350px;
+    height: 250px;
+}
+#skill-box2{
+    position: absolute;
+    top: 60px;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 350px;
+    height: 250px;
+}
+#skill-box3{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 350px;
+    height: 250px;
+}
+.img-1{
+    position: absolute;
+    top: -10%;
+    left: 51%;
+    transform: translateX(-50%);
+    width: 250px;
+}
+.img-2{
+    position: absolute;
+    top: -13%;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 260px;
+}
+.img-3{
+    position: absolute;
+    top: -25%;
+    left: 47%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+.ii{
+    font-size: large;
+    color: black;
+    text-align: center;
+    font-family: 'NanumGothicCoding 볼드체';
+    position: absolute;
+    top:60%; left:50%;
+    transform: translate(-50%, 0%);
+}
+#all-skill p{
+    position: absolute;
+    bottom: 0;
+    color: gray;
+    width: 100%;
+    font-size: 15px;
+    line-height: normal;
+    font-family: 'NanumGothicCoding 일반체';
+} 
+/* 프로젝트 */
+.teaser{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+}
+#pro{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);    
+    font-size: 30px;
+    margin-top: 5%;
+    font-family: 'NanumGothicCoding 볼드체';
+}
+#ha{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'NanumGothicCoding 일반체';
+}
+#all-pro-box{
+    position: relative;
+    top: 300px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#pro-box1{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 350px;
+    height: 250px;
+    border: rgb(204, 204, 204) solid 2px;
+}
+#pro-box2{
+    position: absolute;
+    top: 30px;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 350px;
+    height: 250px;
+    border: rgb(204, 204, 204) solid 2px;
+}
+#pro-box3{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 350px;
+    height: 250px;
+    border: rgb(204, 204, 204) solid 2px;
+}
+.pp{
+    font-size: large;
+    color: black;
+    text-align: center;
+    font-family: 'NanumGothicCoding 볼드체';
+}
+#all-pro-box a p{
+    position: absolute;
+    bottom: 0;
+    color: gray;
+    width: 100%;
+    font-size: 13px;
+    line-height: normal;
+    font-family: 'NanumGothicCoding 일반체';
+}
+/* 푸터 */
+footer{
+    position: relative;    
+    left: 0;
+    bottom: 0;
+    background-color: #f0e7da;
+    border-top: solid #af2f2e 2px;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#fot{
+    color: black;
+    font-size: 13px;
+}
+#name{
+    position:absolute;
+    top:50%; left:10%;
+    transform: translate(0%, -50%);
+    font-family: 'NanumGothicCoding 일반체';
+}
+#mail{
+    position:absolute;
+    top:50%; left:20%;
+    transform: translate(0%, -50%);
+    font-family: 'NanumGothicCoding 일반체';
+}
+
+

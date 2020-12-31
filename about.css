@@ -1,0 +1,33 @@
+/* 헤더 */
+#container1{
+    position: fixed;
+    left: 0px; top: 0px;
+    width: 100%; height: 50px;
+    background-color: #af2f2e;
+    z-index: 1;
+}
+#logo{
+   font-family: 'NanumGothicCoding 볼드체';
+   font-size: 35px;
+   position:absolute;
+   top:50%; left:10%;
+   transform: translate(0%, -50%);
+}
+#logo a{
+    text-decoration: none;
+    color: #f0e7da; 
+}
+#menu{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'NanumGothicCoding 일반체';
+    position:absolute;
+    top:50%; left:20%;
+    transform: translate(0%, -50%);
+}
+#menu a{
+    text-decoration: none;
+    color: #f0e7da;
+    margin: 0px 20px;
+}

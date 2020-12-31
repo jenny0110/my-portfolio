@@ -1,0 +1,139 @@
+/* 헤더 */
+#container1{
+    position: fixed;
+    left: 0px; top: 0px;
+    width: 100%; height: 50px;
+    background-color: #af2f2e;
+    z-index: 1;
+}
+#logo{
+   font-family: 'NanumGothicCoding 볼드체';
+   font-size: 35px;
+   position:absolute;
+   top:50%; left:10%;
+   transform: translate(0%, -50%);
+}
+#logo a{
+    text-decoration: none;
+    color: #f0e7da; 
+}
+#menu{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'NanumGothicCoding 일반체';
+    position:absolute;
+    top:50%; left:20%;
+    transform: translate(0%, -50%);
+}
+#menu a{
+    text-decoration: none;
+    color: #f0e7da;
+    margin: 0px 20px;
+}
+/* 메인 */
+main{
+    margin-top: 50px;
+}
+#logo-port{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+#port{
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-family: 'NanumGothicCoding 볼드체';
+}
+.gallerylist1{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.gallerylist2{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.gallerylist3{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    font-size: 0; 
+}
+ul li{
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+}
+ul li a{
+    display: block;
+    width: auto;
+    text-decoration: none;
+    margin: 5px;
+}
+.screen{
+    position: relative;
+    overflow: hidden;
+}
+ul li a .screen .top{
+    position: absolute;
+    bottom: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+    transition: all .35s;
+}
+ul li a .screen .bottom{
+    position: absolute;
+    top: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 12px;
+    transition: all .35s;
+}
+ul li a .screen .more{
+    position: absolute;
+    top: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 12px;
+    transition: all .35s;
+}
+.screen img{
+    width: 100%;
+}
+
+ul li a:hover .top{
+    bottom: 52%;
+}
+ul li a:hover .bottom{
+    top: 52%;
+}
+ul li a:hover .more{
+    top: 80%;
+}
+ul li a .screen::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7c7c7c5b;
+    z-index: 1;
+    opacity: 0;
+    transition: all .35s;
+}
+ul li a:hover .screen::after{
+    opacity: 1;
+}
