@@ -11,8 +11,8 @@ window.onload = function () {
     });
     document.querySelector('.btn2').addEventListener('click', function () {
         {
-            if (-4000 < posi)
-                posi = posi - 560
+            if (-3800 < posi)
+                posi = posi - 530
             contain.style.transform = "translate(" + posi +"px)"
         }
     });
